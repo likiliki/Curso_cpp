@@ -1,0 +1,26 @@
+﻿Compilación iniciada a las 29/03/2015 19:07:25.
+     1>Proyecto "C:\Users\liki w7\Desktop\curso_cpp\curso\curso\curso.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\curso.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\liki w7\desktop\curso_cpp\curso\curso\nota_media.cpp(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : vea la declaración de 'scanf'
+     1>c:\users\liki w7\desktop\curso_cpp\curso\curso\nota_media.cpp(27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : vea la declaración de 'scanf'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\liki w7\Desktop\curso_cpp\curso\Debug\curso.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\curso.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\liki w7\Desktop\curso_cpp\curso\Debug\curso.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\liki w7\Desktop\curso_cpp\curso\Debug\curso.lib" /MACHINE:X86 Debug\main.obj
+         Debug\nota_media.obj
+         LINK : no se encontró C:\Users\liki w7\Desktop\curso_cpp\curso\Debug\curso.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+         curso.vcxproj -> C:\Users\liki w7\Desktop\curso_cpp\curso\Debug\curso.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\liki w7\Desktop\curso_cpp\curso\Debug\curso.exe;#1" /manifest Debug\curso.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\curso.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\curso.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\liki w7\Desktop\curso_cpp\curso\curso\curso.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.54
