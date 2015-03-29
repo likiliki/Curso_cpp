@@ -7,6 +7,7 @@
 
 void static nota_media()
 {
+	printf("Archivo notamedia.cpp\n\n");
   float notas[N_ALUMNOS]; // matriz notas
   int i = 0;              // índice
   int nalumnos = 0;       // número real de alumnos
@@ -15,7 +16,7 @@ void static nota_media()
   //-----PEDIR EL NUMERO DE ALUMNOS ------------------------------
   do 
   {
-    printf("Número de alumnos: ");
+    printf("Numero de alumnos: ");
     scanf("%d", &nalumnos);    
   }
   while (nalumnos < 1 || nalumnos > N_ALUMNOS);
@@ -23,7 +24,7 @@ void static nota_media()
   // Entrada de datos --------------------------------------------
   for (i = 0; i < nalumnos; i++)
   {
-    printf("Alumno número %3d, nota media: ", i+1);
+    printf("Alumno numero %3d, nota media: ", i+1);
     scanf("%f", &notas[i]);
   }
 
