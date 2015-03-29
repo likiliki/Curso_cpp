@@ -1,25 +1,36 @@
-﻿Compilación iniciada a las 29/03/2015 20:20:51.
-     1>Proyecto "C:\GIT_curso_cpp\Curso_cpp\curso\curso.vcxproj" en el nodo 2 (Rebuild destinos).
+﻿Compilación iniciada a las 30/03/2015 0:33:03.
+     1>Proyecto "C:\GIT_curso_cpp\Curso_cpp\curso\curso.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt estructuras.cpp main.cpp nota_media.cpp
-         nota_media.cpp
-     1>c:\git_curso_cpp\curso_cpp\curso\nota_media.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
-     1>c:\git_curso_cpp\curso_cpp\curso\nota_media.cpp(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt estructuras.cpp main.cpp
          main.cpp
      1>c:\git_curso_cpp\curso_cpp\curso\nota_media.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
      1>c:\git_curso_cpp\curso_cpp\curso\nota_media.cpp(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
-     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(7): warning C4005: 'EOF' : redefinición de macro
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(59) : vea la definición anterior de 'EOF'
-     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(84): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(254) : vea la declaración de 'gets'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(89): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(254) : vea la declaración de 'gets'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(102): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(119): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
          estructuras.cpp
-     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(7): warning C4005: 'EOF' : redefinición de macro
-                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(59) : vea la definición anterior de 'EOF'
-     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(84): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(254) : vea la declaración de 'gets'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(89): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(254) : vea la declaración de 'gets'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(102): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
+     1>c:\git_curso_cpp\curso_cpp\curso\estructuras.cpp(119): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(283) : vea la declaración de 'scanf'
          Generando código...
        Link:
@@ -27,8 +38,8 @@
          Debug\main.obj
          Debug\nota_media.obj
          curso.vcxproj -> C:\GIT_curso_cpp\Curso_cpp\Debug\curso.exe
-     1>Compilación del proyecto terminada "C:\GIT_curso_cpp\Curso_cpp\curso\curso.vcxproj" (Rebuild destinos).
+     1>Compilación del proyecto terminada "C:\GIT_curso_cpp\Curso_cpp\curso\curso.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:01.28
+Tiempo transcurrido 00:00:00.60

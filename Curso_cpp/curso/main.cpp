@@ -17,7 +17,9 @@ int main()
 
 	//cap 6 - Estructura de datos
 	//matrizUni(); // matriz unidimensional
-	letras();    // contador de apariciones de una letra en texto
+	//letras();    // contador de apariciones de una letra en texto
+	//getCpp();	  // entrada de teclado con get
+	matrizBi();	  // matriz bidimentnsional
 	
 	system("pause");
 	return 0;
