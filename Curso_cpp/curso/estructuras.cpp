@@ -250,14 +250,43 @@ void static matrizSt()
 {
 	static tficha2 alumno[NA];	// matriz estructura
 	int n = 0, i = 0;
-	char *fin = NULL;  // para almacenar gets
+	char fin = '0';  // para almacenar gets
 	int aprobados = 0, suspendidos = 0;
 
 	//entrada de datos
-	printf("Introducir Datos");
-	printf("Para finalizar introduzca ~");
+	printf("Introducir Datos\n");
+	printf("Para finalizar introduzca ~ \n");
 
-	printf("Nombre");
-	fin = gets(alumno[n].nombre);
-	printf("%s", alumno[n].nombre);
+	printf("Nombre : ");
+	scanf("%s", &alumno[n].nombre);
+	fin = *alumno[n].nombre;
+	while (fin != '~')
+	{
+		printf("Nota:   ");
+		scanf("%f", &alumno[n++].nota);
+		fflush(stdin); // eliminar el carácter \n
+		if (n == NA) break;
+		// Siguiente alumno
+		printf("Nombre: ");
+		scanf("%s", &alumno[n].nombre);
+		fin = *alumno[n].nombre;
+	}
+
+	//recuento de aprobados
+	for (i = 0; i < n; i++)
+	{
+		if (alumno[i].nota >= 5)
+			aprobados++;
+		else
+			suspendidos++;
+	}
+	// Escribir resultados
+	printf("\n\n\t**RESULTADOS OBTENIDOS**\n\n");
+	printf("\tAprobados  : %d \n", aprobados);
+	printf("\tSusupensos : %d \n", suspendidos);
+
+	printf("\n\t**Porcentajes**\n\n");
+
+	printf("Aprobados:   %.4g %%\n", (float)aprobados / n * 100);
+	printf("Suspendidos: %.4g %%\n", (float)suspendidos / n * 100);
 }
